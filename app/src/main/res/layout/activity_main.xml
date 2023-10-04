@@ -5,12 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/tlo_apki"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:text="@string/polecenie" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,21 +28,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:onClick="dobraOdp"
+            android:backgroundTint="@color/morski"
+            android:layout_margin="@dimen/margines_przycisku"
+           />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="#ee3"
+            android:onClick="dobraOdp"
+            android:layout_margin="@dimen/margines_przycisku"
+           />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="@color/white"
+            android:layout_margin="@dimen/margines_przycisku"/>
     </LinearLayout>
 
     <LinearLayout
@@ -49,21 +62,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="@color/czerwony"
+            android:layout_margin="@dimen/margines_przycisku"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:onClick="dobraOdp"
+            android:backgroundTint="@color/zielony"
+            android:layout_margin="@dimen/margines_przycisku"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:onClick="dobraOdp"
+            android:backgroundTint="@color/black"
+            android:layout_margin="@dimen/margines_przycisku" />
     </LinearLayout>
 
 </LinearLayout>

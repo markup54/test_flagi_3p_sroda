@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="morski">#223456</color>
+    <color name="tlo_apki">#83A6C8</color>
+    <color name="czerwony">#dd4444</color>
+    <color name="zielony">#0A4012</color>
 </resources>
