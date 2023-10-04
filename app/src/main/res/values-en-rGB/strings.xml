@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestFlagi3Psroda</string>
+    <string name="ok">Good answer</string>
+    <string name="bad">Bad answer</string>
+    <string name="komunikat">Don\'t delete this color</string>
+    <string name="polecenie">Select color, which is not in polish flag</string>
+</resources>

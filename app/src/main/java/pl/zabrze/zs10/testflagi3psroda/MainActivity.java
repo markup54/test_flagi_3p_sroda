@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
         int idButton = view.getId();
         Button button = findViewById(idButton);
         button.setVisibility(View.INVISIBLE);
+    }
+
+    public void zlaOdp(View view) {
+        Toast.makeText(MainActivity.this,
+                R.string.komunikat,
+                Toast.LENGTH_SHORT)
+                .show();
     }
 }
